@@ -1,12 +1,12 @@
 # Bedrock Lens
 
-**Open-source cost intelligence dashboard for Amazon Bedrock**
+**Cost intelligence dashboard for Amazon Bedrock**
 
 Bedrock Lens gives you instant visibility into your Amazon Bedrock spending — model-level cost breakdown, prompt cache efficiency analysis, latency monitoring, and service tier usage — all in a single dashboard deployed to your own AWS account.
 
-<!-- Add screenshots after capturing them:
-![Overview](docs/screenshots/overview.png)
--->
+![Login](./docs/screenshots/login-page.png)
+![Overview](./docs/screenshots/overview-page.png)
+
 
 ## Why Bedrock Lens?
 
@@ -109,19 +109,19 @@ Open the DashboardUrl, sign in, and set your new password. Data starts appearing
 
 Daily cost trends by model, total spend, invocation counts, and service tier distribution at a glance.
 
-<!-- ![Overview](docs/screenshots/overview.png) -->
+![Overview](docs/screenshots/overview-page.png)
 
 ### Cache Analysis
 
 Prompt cache hit rate, dollar savings from caching, cache write overhead, and daily efficiency trends.
 
-<!-- ![Cache Analysis](docs/screenshots/cache-analysis.png) -->
+![Cache Analysis](docs/screenshots/cache-analysis.png)
 
 ### Latency Monitor
 
 Set your acceptable latency baseline (e.g., 5 seconds). See how many invocations exceed it.
 
-<!-- ![Latency Monitor](docs/screenshots/latency-monitor.png) -->
+![Latency Monitor](docs/screenshots/latency-monitor-page.png)
 
 ## What's Not Included (and Why)
 
